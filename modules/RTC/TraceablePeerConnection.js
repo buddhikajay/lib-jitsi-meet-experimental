@@ -932,7 +932,7 @@ TraceablePeerConnection.prototype._createRemoteTrack = function(
 
         return;
     } else if (existingTrack) {
-        logger.error(`${this} overwriting remote track for ${ownerEndpointId} ${mediaType}`);
+        logger.error(`${this} v1:overwriting remote track for ${ownerEndpointId} ${mediaType}`);
 
         return;
     }
